@@ -12,14 +12,28 @@ body{
   justify-content: space-between;
 }
 .wrapper1{
-	width: 25vh;
-  	height: 25vh;
-  	top:20rem;
+	width: 100%;
+  	top:15rem;
 	position: sticky;
 	position: -webkit-sticky;
 }
 .wrapper1 img{
+	border-radius: 10px;
+}
+.wrapper2{
+	width: 25vh;
+  	height: 20vh;
+  	top:30rem;
+	position: sticky;
+	position: -webkit-sticky;
+}
+.wrapper2 img{
 	width:100px;
+}
+#one img {
+	width:100%;
+	position: sticky;
+	position: -webkit-sticky;
 }
 #two{
 	border: 5px solid #808080;
