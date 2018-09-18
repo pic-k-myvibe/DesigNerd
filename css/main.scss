@@ -12,12 +12,13 @@ body{
   justify-content: space-between;
 }
 .wrapper1{
-	width: 80%;
+	width: 100%;
   	top:15rem;
-	position: sticky;
+  	position: sticky;
 	position: -webkit-sticky;
 	img{
-		border-radius: 10px;
+		height:100%;
+
 	}
 }
 .wrapper2{
