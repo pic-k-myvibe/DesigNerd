@@ -51,4 +51,10 @@ body {
   text-align: center;
 }
 
+.button-container-home {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */

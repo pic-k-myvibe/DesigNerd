@@ -43,7 +43,10 @@ body{
 	h3{
 		text-align: center;
 	}
-	button{
-	
-	}
+}
+
+.button-container-home{
+	display: flex;
+	justify-content:center;
+	width: 100%;
 }
