@@ -8,3 +8,29 @@
 footer#footer a {
   color: #fff;
 }
+
+/* Filtros */
+.opacity {
+  opacity: .8;
+}
+.blur {
+  filter: blur(2px);
+}
+.bn {
+  filter: grayscale(1);
+}
+/**/
+#div1 {
+  width: 90%;
+  height: 200px;
+  /* border: 1px dashed red; */
+  position: absolute;
+  top: -400px;
+  text-align: center;
+}
+#drag1 {
+  border-color:transparent;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+}
