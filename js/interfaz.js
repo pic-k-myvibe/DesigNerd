@@ -1,4 +1,30 @@
 var nuevoFiltro = document.getElementById('imagenEditable')
+var bgFiltros = document.getElementById('bgFiltros')
+
+function aplicarAzul() {
+  bgFiltros.classList.toggle("aplicarAzul")
+  nuevoFiltro.classList.toggle("opacity")
+}
+
+function aplicarNaranja() {
+  bgFiltros.classList.toggle("aplicarNaranja")
+  nuevoFiltro.classList.toggle("opacity")
+}
+
+function aplicarVerde() {
+  bgFiltros.classList.toggle("aplicarVerde")
+  nuevoFiltro.classList.toggle("opacity")
+}
+
+function aplicarAmarillo() {
+  bgFiltros.classList.toggle("aplicarAmarillo")
+  nuevoFiltro.classList.toggle("opacity")
+}
+
+function aplicarRojo() {
+  bgFiltros.classList.toggle("aplicarRojo")
+  nuevoFiltro.classList.toggle("opacity")
+}
 
 function aplicarOpacity() {
   console.log('click')
@@ -16,8 +42,8 @@ function aplicarBn() {
   nuevoFiltro.classList.toggle("bn")
 }
 
-// Arrastrar texto
 
+// Arrastrar texto
 function allowDrop(ev) {
     ev.preventDefault();
 }

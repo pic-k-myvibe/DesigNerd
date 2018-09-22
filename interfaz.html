@@ -52,21 +52,29 @@
                 <input type="range" class="custom-range" id="customRange1">
               </div>
             </div>
-            <div class="row">
-              <div class="col">
-                <p><small>Triangulo</small></p>
+            <div class="row pt-2 pb-2">
+              <div class="col pb-2">
+                <div class="shadow rounded-circle aplicarAzul" onclick="aplicarAzul()"></div>
               </div>
-              <div class="col">
-                <p><small>Cuadrado</small></p>
+              <div class="col pb-2">
+                <div class="shadow rounded-circle aplicarNaranja" onclick="aplicarNaranja()"></div>
               </div>
-              <div class="col">
-                <p><small>Estrella</small></p>
+              <div class="col pb-2">
+                <div class="shadow rounded-circle aplicarVerde" onclick="aplicarVerde()"></div>
+              </div>
+              <div class="col pb-2">
+                <div class="shadow rounded-circle aplicarAmarillo" onclick="aplicarAmarillo()"></div>
+              </div>
+              <div class="col pb-2">
+                <div class="shadow rounded-circle aplicarRojo" onclick="aplicarRojo()"></div>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-11 p-2 bg-white">
             <figcaption class="figure-caption text-right">Editando imagen.jpg</figcaption>
-            <img id="imagenEditable" src="img/editar.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+            <div id="bgFiltros" class="rounded">
+              <img id="imagenEditable" src="img/editar.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+            </div>
             <div class="row">
               <div class="col">
                 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
@@ -115,6 +123,22 @@
           <div class="col-12 col-md-3">
             <a href="#">Preguntas frecuentes</a>
           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <div class="row text-center pt-2 pb-2">
+        <div class="col">
+          <a href="#">Faceboock</a>
+        </div>
+        <div class="col">
+          <a href="#">Twitter</a>
+        </div>
+        <div class="col">
+          <a href="#">Youtube</a>
         </div>
       </div>
     </footer>
